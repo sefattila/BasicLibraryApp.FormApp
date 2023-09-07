@@ -1,0 +1,23 @@
+﻿Kitapçı uygulması yap,
+Üye olanlar yalnızca kitap sistemine girebilir.
+Kategorilerine göre kitaplar listelensin.
+
+kitaplar:
+    -Kitap adı
+    -Yazarı
+    -Kategori
+    -Fiyatı
+    -Stok
+    -İndirim
+    -StokDurum
+    -Kitap yayın tarihi
+
+-Tüm kitapları kategori başlığında getir.
+-Kitap adına göre sorgula (son eklenen en üstte gelsin)
+-Kategoriye göre sorgula (Kitap adına göre gelsin)
+-Yazara göre sorgula (Kitabın tarihine göre gelsin)
+-Fiyata göre sırala 
+-Tarihe göre sırala
+-İndirimli olanları getir (İndirim oranlarına göre)
+-Stoğu bitenleri bildir. (Stoğu 10 dan az olanlar gelsin)
+-Son 10 kitabı getir
