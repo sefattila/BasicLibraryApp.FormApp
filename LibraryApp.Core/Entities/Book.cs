@@ -13,11 +13,13 @@ namespace LibraryApp.Core.Entities
         public double Fiyat { get; set; }
         public DateTime ReleaseDate { get; set; }
         public int AuthorId { get; set; }
-        public string CategoryId { get; set; }
+        public int CategoryId { get; set; }
+        public int Stock { get; set; }
+        public double Discount { get; set; }
+        public bool StockState { get; set; }
 
         //..
-        public Author Author { get; set; }
-        public Category Category { get; set; }
-        public BookDetail BookDetail { get; set; }
+        public virtual Author Author { get; set; }
+        public virtual Category Category { get; set; }
     }
 }
